@@ -23,16 +23,16 @@ int main(){
     for(int i=0;i<n;i++){
             if(i%2==0){
                  for(int j=0;j<n;j++){
-                    cout<<A[j][i]<<" ";
+                    cout<<A[j][i]<<",";
                  }
             }
             else if(i%2 !=0){
                 for(int j=1;j<=n;j++){
-                     cout<<A[n-j][i]<<" ";
+                     cout<<A[n-j][i]<<",";
                 }
             }
     }
-    cout<<endl;
+    cout<<"END"<<endl;
     
     return 0;
 }
